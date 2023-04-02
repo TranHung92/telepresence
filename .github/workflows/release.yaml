@@ -15,7 +15,7 @@ jobs:
         runners:
           - ubuntu-latest
           - macos-latest
-          - macOS-arm64
+          # - macOS-arm64
           - windows-2019
     runs-on: ${{ matrix.runners }}
     steps:
